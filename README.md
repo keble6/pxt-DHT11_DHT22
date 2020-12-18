@@ -1,5 +1,7 @@
 # BBC micro:bit MakeCode editor extension for DHT11 and DHT22 humidity/temperature sensors
 
+Modified by keble6 to check for disconnected device
+
 [DHT11](https://www.mouser.com/ds/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf) and [DHT22](https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf) are two popular sensors among microcontroller users, especially the cheap DHT11s. DHT22s cost more but have better data resolution.
 
 My codes are based on [MonadnockSystems/pxt-dht11](https://github.com/MonadnockSystems/pxt-dht11) but modified the pin pull-up time calculating method based on some Arduino examples with several additional features. The extension also support DHT22s.
